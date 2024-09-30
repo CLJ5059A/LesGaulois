@@ -49,7 +49,7 @@ public class Village {
 //		Le tableau possède 30 indice allant de 0 à 29. Donc l'indice 30 va au-delà du tableau.
 		Chef abraracourcix = new Chef("Abraracourcix", 6, village);
 		village.setChef(abraracourcix);
-		Gaulois asterix = new Gaulois("Asterix", 8);
+		Gaulois asterix = new Gaulois("Asterix", 8, 0);
 		village.ajouterHabitant(asterix);
 		
 //		Gaulois gaulois = village.trouverHabitant(1);
@@ -58,7 +58,7 @@ public class Village {
 //		ne contient au element
 		
 		village.afficherVillageois();
-		Gaulois obelix = new Gaulois("Obélix", 25);
+		Gaulois obelix = new Gaulois("Obélix", 25, 0);
 		village.ajouterHabitant(obelix);
 		
 	}
