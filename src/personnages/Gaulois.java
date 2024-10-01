@@ -1,5 +1,7 @@
 package personnages;
 
+import villagegaulois.Musee;
+
 public class Gaulois {
 	private String nom;
 	private int force;
